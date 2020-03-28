@@ -1,0 +1,1 @@
+[{{ include.category }}]({{ include.link }}){: .label target="_blank" .label-{{ include.label_color }} }
