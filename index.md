@@ -6,7 +6,7 @@ description: "Knowledge Base for the Clinical Lab CRM Project"
 permalink: /
 ---
 
-# Home
+# Clinical Lab CRM
 {: .fs-9 }
 
 Dynamics March 2020's knowledge base for all things related to the Clinical Lab CRM project.
