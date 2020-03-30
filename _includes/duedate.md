@@ -1,0 +1,1 @@
+[{{ include.category }}]({{ include.link }}){: .label .label-{{ include.label_color }} }
