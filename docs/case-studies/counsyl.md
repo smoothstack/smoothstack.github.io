@@ -29,3 +29,8 @@ nav_order: 1
 1. Can bill the right health plan for just about any patient it serves.
 1. Offers a quick and easy-to-use patient test pricing tool.
 1. Patients can use the tool to determine exactly how much they will pay, based on their health insurance benefits.
+
+---
+
+See [External References]({{ site.baseurl }}{% link docs/resources.md %}/#external-references) to read more.
+{: .fs-3 .mb-6 }
