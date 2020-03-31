@@ -33,4 +33,11 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 | Create a Publisher & Solution | {% include duedate.md link="#" category="03/31" label_color="green" %} |
 | Start detailing the fields for each entity | {% include duedate.md link="#" category="03/31" label_color="green" %} |
 
+---
+
+### Tuesday
+
+| Tasks | Deadline |
+|:-|:-|
+| TBD | {% include duedate.md link="#" category="TBD" label_color="green" %} |
 
