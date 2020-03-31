@@ -28,6 +28,8 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 
 ### Monday
 
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week4/monday.md %})
+
 | Tasks | Deadline |
 |:-|:-|
 | Create a Publisher & Solution | {% include duedate.md link="#" category="03/31" label_color="green" %} |
