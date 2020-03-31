@@ -2,6 +2,7 @@
 layout: default
 title: Monday
 parent: Week 4
+grand_parent: Notes
 nav_order: 1
 ---
 
