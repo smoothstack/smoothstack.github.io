@@ -18,6 +18,10 @@
   @include fs-2;
 }
 
+.label-nolink {
+  cursor: default;
+}
+
 .label-green {
   background-color: $green-200;
 }
