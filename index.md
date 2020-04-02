@@ -52,8 +52,8 @@ Assigned
 
 | Tasks                               | Deadline                                                              |
 |:------------------------------------|:----------------------------------------------------------------------|
-| Start Creating Entities in Dynamics | {% include duedate.md link="#" category="04/01" label_color="blue" %} |
-| Model System Requirements           | {% include duedate.md link="#" category="04/01" label_color="blue" %} |
+| Start Creating Entities in Dynamics | {% include duedate.md link="#" category="04/01" label_color="red" %} |
+| Model System Requirements           | {% include duedate.md link="#" category="04/01" label_color="red" %} |
 
 ---
 
@@ -63,5 +63,13 @@ Assigned
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create All Entities in Dynamics     | {% include duedate.md link="#" category="04/01" label_color="green" %} |
-| Start Creating User Stories         | {% include duedate.md link="#" category="04/01" label_color="green" %} |
+| Create All Entities in Dynamics     | {% include duedate.md link="#" category="04/02" label_color="blue" %} |
+| Start Creating User Stories         | {% include duedate.md link="#" category="04/02" label_color="blue" %} |
+
+### Thursday
+
+[No Meeting]({{ site.baseurl }}{% link docs/notes/week4/thursday.md %})
+
+| Tasks                                       | Deadline                                                               |
+|:--------------------------------------------|:-----------------------------------------------------------------------|
+| Continue creating entities and requirements | {% include duedate.md link="#" category="04/06" label_color="green" %}  |

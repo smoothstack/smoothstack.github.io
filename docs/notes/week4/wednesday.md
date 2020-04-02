@@ -13,5 +13,5 @@ nav_order: 3
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create All Entities in Dynamics     | {% include duedate.md link="#" category="04/01" label_color="green" %} |
-| Start Creating User Stories         | {% include duedate.md link="#" category="04/01" label_color="green" %} |
+| Create All Entities in Dynamics     | {% include duedate.md link="#" category="04/02" label_color="blue" %} |
+| Start Creating User Stories         | {% include duedate.md link="#" category="04/02" label_color="blue" %} |

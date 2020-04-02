@@ -13,5 +13,5 @@ nav_order: 2
 
 | Tasks                               | Deadline                                                              |
 |:------------------------------------|:----------------------------------------------------------------------|
-| Start Creating Entities in Dynamics | {% include duedate.md link="#" category="04/01" label_color="blue" %} |
-| Model System Requirements           | {% include duedate.md link="#" category="04/01" label_color="blue" %} |
+| Start Creating Entities in Dynamics | {% include duedate.md link="#" category="04/01" label_color="red" %} |
+| Model System Requirements           | {% include duedate.md link="#" category="04/01" label_color="red" %} |
