@@ -68,7 +68,8 @@ Custom
 
 | Field | Datatype | Description |
 |:------|:------------|:-|
-| {% include colortext.md field='ICD-10 Code' color='blue-100' %} | VARCHAR (pk) | Standardized code for disease classification |
+| {% include colortext.md field='ID' color='blue-100' %} | INT (pk) | Disease Classification ID |
+| {% include colortext.md field='ICD-10 Code' color='blue-100' %} | VARCHAR | Standardized code for disease classification |
 | {% include colortext.md field='Short Name' color='blue-100' %} | VARCHAR | Short, common name for the disease |
 | {% include colortext.md field='Long Name' color='blue-100' %} | VARCHAR | Long, descriptive name for the disease |
 | {% include colortext.md field='Affected System' color='blue-100' %} | VARCHAR | Immune system, cardiovascular system, etc. |
