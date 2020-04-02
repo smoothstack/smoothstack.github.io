@@ -13,8 +13,8 @@ nav_order: 1
 
 | Tasks | Deadline |
 |:-|:-|
-| Create a Publisher & Solution | {% include duedate.md link="#" category="03/31" label_color="green" %} |
-| Start detailing the fields for each [entity]({{ site.baseurl }}{% link docs/dynamics-365/modeling.md %}) | {% include duedate.md link="#" category="03/31" label_color="green" %} |
+| Create a Publisher & Solution | {% include duedate.md link="#" category="03/31" label_color="red" %} |
+| Start detailing the fields for each [entity]({{ site.baseurl }}{% link docs/dynamics-365/modeling/modeling.md %}) | {% include duedate.md link="#" category="03/31" label_color="red" %} |
 
 ---
 

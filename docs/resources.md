@@ -34,3 +34,5 @@ nav_order: 6
 | _How Smart Clinical Laboratories Are Pricing Tests to Meet the Expectations of Patients_ | {% include category.md link="https://www.darkdaily.com/how-smart-clinical-laboratories-and-genetic-testing-labs-are-collecting-more-revenue-by-pricing-tests-to-meet-the-expectations-of-patients-523/" category="Business" label_color="blue" %} |
 | _Laboratory Business Plan (Fargo Medical Laboratories)_ | {% include category.md link="https://www.bplans.com/laboratory_business_plan/executive_summary_fc.php" category="Business" label_color="blue" %} |
 | _Understanding Healthcare Reimbursement_ | {% include category.md link="https://www.verywellhealth.com/reimbursement-2615205" category="Business" label_color="blue" %} |
+| _Outpatient Charges_ | {% include category.md link="http://truecostofhealthcare.org/outpatient_charges/" category="Business" label_color="blue" %} |
+| _Medical Coding for Billers_ | {% include category.md link="https://www.medicalbillingandcodingonline.com/medical-coding-for-billers/" category="Business" label_color="blue" %} |

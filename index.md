@@ -26,20 +26,42 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 
 ## Week 4 
 
+Overdue
+{: .label .label-red }
+
+Due Today
+{: .label .label-blue }
+
+Assigned
+{: .label .label-green }
+
 ### Monday
 
 [Meeting Notes]({{ site.baseurl }}{% link docs/notes/week4/monday.md %})
 
 | Tasks | Deadline |
 |:-|:-|
-| Create a Publisher & Solution | {% include duedate.md link="#" category="03/31" label_color="green" %} |
-| Start detailing the fields for each [entity]({{ site.baseurl }}{% link docs/dynamics-365/modeling.md %}) | {% include duedate.md link="#" category="03/31" label_color="green" %} |
+| Create a Publisher & Solution | {% include duedate.md link="#" category="03/31" label_color="red" %} |
+| Start detailing the fields for each [entity]({{ site.baseurl }}{% link docs/dynamics-365/modeling/modeling.md %}) | {% include duedate.md link="#" category="03/31" label_color="red" %} |
 
 ---
 
 ### Tuesday
 
-| Tasks | Deadline |
-|:-|:-|
-| TBD | {% include duedate.md link="#" category="TBD" label_color="green" %} |
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week4/tuesday.md %})
 
+| Tasks                               | Deadline                                                              |
+|:------------------------------------|:----------------------------------------------------------------------|
+| Start Creating Entities in Dynamics | {% include duedate.md link="#" category="04/01" label_color="blue" %} |
+| Model System Requirements           | {% include duedate.md link="#" category="04/01" label_color="blue" %} |
+
+---
+
+### Wednesday
+
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week4/wednesday.md %})
+
+| Tasks                               | Deadline                                                               |
+|:------------------------------------|:-----------------------------------------------------------------------|
+| Create All Entities in Dynamics     | {% include duedate.md link="#" category="04/01" label_color="green" %} |
+| Start Creating User Stories         | {% include duedate.md link="#" category="04/01" label_color="green" %} |

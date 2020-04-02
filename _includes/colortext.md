@@ -1,0 +1,1 @@
+[{{ include.field }}](#){: .text-{{ include.color }} .label-nolink }
