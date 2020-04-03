@@ -2,7 +2,7 @@
 layout: default
 title: Fargo Medical Laboratories
 parent: Case Studies
-nav_order: 1
+nav_order: 2
 ---
 
 # Fargo Medical Laboratories

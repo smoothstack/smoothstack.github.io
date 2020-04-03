@@ -1,0 +1,1 @@
+[{{ include.title }}]({{ include.link }}){:  .text-{{ include.link_color }}  target="_blank" .custom_link }
