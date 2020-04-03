@@ -63,8 +63,8 @@ Assigned
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create All Entities in Dynamics     | {% include duedate.md link="#" category="04/02" label_color="blue" %} |
-| Start Creating User Stories         | {% include duedate.md link="#" category="04/02" label_color="blue" %} |
+| Create All Entities in Dynamics     | {% include duedate.md link="#" category="04/02" label_color="red" %} |
+| Start Creating User Stories         | {% include duedate.md link="#" category="04/02" label_color="red" %} |
 
 ### Thursday
 
