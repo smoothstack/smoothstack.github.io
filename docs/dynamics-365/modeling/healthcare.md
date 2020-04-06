@@ -55,7 +55,7 @@ Custom
 | {% include colortext.md field='Specialization' color='blue-100' %} | VARCHAR | Internal medicine, cardiology, etc. |
 | {% include colortext.md field='First Name' color='blue-100' %} | VARCHAR | Healthcare professional first name |
 | {% include colortext.md field='Last Name' color='blue-100' %} | VARCHAR | Healthcare professional last name |
-| {% include colortext.md field='Email' color='green' %} | VARCHAR | Healthcare professional email address |
+| {% include colortext.md field='Email' color='blue-100' %} | VARCHAR | Healthcare professional email address |
 | {% include colortext.md field='Address' color='blue-100' %} | VARCHAR | Healthcare professional address |
 | {% include colortext.md field='Phone' color='blue-100' %} | VARCHAR | Healthcare professional phone number |
 | {% include colortext.md field='Fax' color='blue-100' %} | VARCHAR | Healthcare professional fax number |
