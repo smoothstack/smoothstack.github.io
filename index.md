@@ -7,6 +7,7 @@ permalink: /
 ---
 
 # Clinical Lab CRM
+{: .fs-9 }
 
 Dynamics March 2020's knowledge base for all things related to the Clinical Lab CRM project.
 {: .fs-6 .fw-300 }
@@ -15,7 +16,7 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 
 ---
 
-## Site Overview
+# Site Overview
 
 - View the [Clinical Lab 2.0]({{ site.baseurl }}{% link docs/clinical-lab-2.md %}) tab to learn more about the need for a lab-specific CRM.
 - See the [Dynamics 365]({{ site.baseurl }}{% link docs/dynamics-365/dynamics-365.md %}) tab for information related to implementing this CRM in a dynamics environment.   
@@ -24,7 +25,18 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 
 ---
 
-## Week 5
+# Week 5
+
+<div class="code-example mb-7" markdown="1">
+
+#### Notes & Assignments
+
+- [Week 4]({{ site.baseurl }}{% link docs/notes/week4/week4.md %})
+- [Week 5 _(see below)_]({{ site.baseurl }}{% link docs/notes/week5/week5.md %}){: .custom_link_color_3 .custom_link }
+
+</div>
+
+#### Assignment Deadlines
 
 Overdue
 {: .label .label-red }
@@ -37,6 +49,19 @@ Assigned
 
 ### Monday
 
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week5/monday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
+
 | Tasks | Deadline |
 |:-|:-|
-| TBD | TBD |
+| Finalize fields for Patient and Insurance Plan entities | {% include duedate.md link="#" category="04/07" label_color="red" %} |
+
+
+### Tuesday
+{: .mt-7 }
+
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week5/tuesday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
+
+| Tasks | Deadline |
+|:-|:-|
+| Create forms for Patient and Insurance Plan entities | {% include duedate.md link="#" category="04/08" label_color="blue" %} |
+| Continue developing user stories on trello board | {% include duedate.md link="#" category="TBD" label_color="green" %} |

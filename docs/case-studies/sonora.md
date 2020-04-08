@@ -6,12 +6,23 @@ nav_order: 3
 ---
 
 # Sonora Quest Labs
-{: .no_toc }
+{: .no_toc .fs-9 }
 
 How Sonora Quest Labs Eliminated 4 Hours a Day in Performance Report Work
-{: .fs-5 .fw-300 }
+{: .fs-6 .fw-300 }
 
-<a href='/assets/files/sonora.pdf' target='_blank' class='custom_link_color fs-2'>Sonora Quest Labs Case Study</a>
+[View PDF]({{ site.baseurl }}{% link assets/files/sonora.pdf %}){: target="blank" } in the next tab, or see this and many other case studies at [hc1.com](https://www.hc1.com/resource-categories/case-study/){: target="blank" .custom_link_color .custom_link }
+{: .fs-3 .mb-6 }
+
+<div class="code-example" markdown="1">
+
+#### Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+</div>
 
 
 ---
@@ -27,6 +38,8 @@ day to just 45 minutes a day
 - By reducing manual work and duplicate work,
 overall employee efficiency increased by 85%
 
+---
+
 ## The Challenge
 
 Sonora Quest Laboratories (SQL), a joint venture between
@@ -41,6 +54,8 @@ Yet IT resources became strained as the organization
 transitioned from a client-centric LIS to patient-centric
 LIS, further exacerbating the burden of manually collating
 performance reports and key quality metrics. 
+
+---
 
 ## The Solution
 
@@ -65,6 +80,8 @@ by department to ensure they are staffing the correct
 departments at the correct times and at the correct
 levels. Leaders can also identify if certain departments
 are struggling with staffing or missing their benchmarks.
+
+---
 
 ## The Results
 

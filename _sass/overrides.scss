@@ -3,7 +3,7 @@
 //
 
 a.custom_link_color {
-    color: $blue-300 !important;
+    color: $aurora-purple !important;
 }
 
 a.custom_link {
@@ -18,4 +18,12 @@ a.custom_link {
       background-size: 1px 1px;
   
     }
+}
+
+a.custom_link_color_2 {
+  color: $frost-1;
+}
+
+a.custom_link_color_3 {
+  color: $grey-lt-000;
 }

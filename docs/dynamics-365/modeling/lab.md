@@ -29,28 +29,16 @@ nav_order: 3
 {: .d-inline-block }
 
 Custom
-{: .label .label-blue }
+{: .label .label-lab }
 
-| Field | Datatype | Description |
+| Field | Dynamics Datatype | Description |
 |:------|:------------|:-|
-| {% include colortext.md field='ID' color='blue-100' %} | INT (pk) | Lab order ID |
-| {% include colortext.md field='Order Date' color='blue-100' %} | VARCHAR | Date test was ordered |
-| {% include colortext.md field='Service Event ID' color='purple-100' %} | INT (fk) | Service event that produced this order |
-| {% include colortext.md field='Medical procedure ID' color='purple-100' %} | INT (fk) | Medical procedure being ordered |
-
----
-
-## Medical Procedure
-{: .d-inline-block }
-
-Custom
-{: .label .label-blue }
-
-| Field | Datatype | Description |
-|:------|:------------|:-|
-| {% include colortext.md field='ID' color='blue-100' %} | INT (pk) | Medical procedure ID |
-| {% include colortext.md field='CPT Code' color='blue-100' %} | VARCHAR | Standardized code for billing a medical procedure |
-| {% include colortext.md field='Name' color='blue-100' %} | VARCHAR | Descriptive name of the medical procedure |
+| {% include colortext.md field='ID' color='lab-orange' %} | Primary key | Lab order ID |
+| {% include colortext.md field='Order Date' color='lab-orange' %} | Date | Date test was ordered |
+| {% include colortext.md field='Status' color='lab-orange' %} | Status | Active or Inactive |
+| {% include colortext.md field='Status Reason' color='lab-orange' %} | Status Reason | _(Active)_ Preparation, In-Progress;      _(Inactive)_ Completed, Canceled |
+| {% include colortext.md field='Service Event ID' color='aurora-purple' %} | Lookup | Service event that produced this order |
+| {% include colortext.md field='Lab Product ID' color='aurora-purple' %} | Lookup | Medical procedure being ordered |
 
 ---
 
@@ -58,14 +46,45 @@ Custom
 {: .d-inline-block }
 
 Custom
-{: .label .label-blue }
+{: .label .label-lab }
 
-| Field | Datatype | Description |
+| Field | Dynamics Datatype | Description |
 |:------|:------------|:-|
-| {% include colortext.md field='ID' color='blue-100' %} | INT (pk) | Lab result ID |
-| {% include colortext.md field='Result Date' color='blue-100' %} | VARCHAR | Date the test result is produced |
-| {% include colortext.md field='Numeric Value' color='blue-100' %} | VARCHAR | Numeric value of the tested metric |
-| {% include colortext.md field='Unit of Measurement' color='blue-100' %} | VARCHAR | Unit of measure for the tested metric |
-| {% include colortext.md field='Remarks' color='blue-100' %} | VARCHAR | Notable comments regarding the test results |
-| {% include colortext.md field='Lab Order ID' color='purple-100' %} | INT (fk) | Which lab order these results correspond to |
+| {% include colortext.md field='ID' color='lab-orange' %} | Primary key | Lab result ID |
+| {% include colortext.md field='Result Date' color='lab-orange' %} | Date | Date the test result is produced |
+| {% include colortext.md field='Numeric Value' color='lab-orange' %} | Decimal number | Numeric value of the tested metric |
+| {% include colortext.md field='Unit of Measurement' color='lab-orange' %} | Single line of text | Unit of measure for the tested metric |
+| {% include colortext.md field='Remarks' color='lab-orange' %} | Multiple lines of text | Notable comments regarding the test results |
+| {% include colortext.md field='Lab Cost' color='lab-orange' %} | Currency | The price charged by the lab company for the lab test, expressed in Currency |
+| {% include colortext.md field='Lab Order ID' color='aurora-purple' %} | Lookup | Which lab order these results correspond to |
+| {% include colortext.md field='Lab Invoice ID' color='aurora-purple' %} | Lookup | Foreign key to lab invoice |
 
+---
+
+## Lab Product
+{: .d-inline-block }
+
+Product Catalog
+{: .label .label-default-entity }
+
+| Field | Dynamics Datatype | Description |
+|:------|:------------|:-|
+| {% include colortext.md field='ID' color='aurora-green' %} | Primary key | Medical procedure ID |
+| {% include colortext.md field='Product Type' color='aurora-green' %} | Option set | Standard Medical Procedure, Derived Product |
+| {% include colortext.md field='CPT Code' color='aurora-green' %} | Single line of text | Standardized code for billing a medical procedure |
+| {% include colortext.md field='Name' color='aurora-green' %} | Single line of text | Descriptive name of the medical procedure |
+
+---
+
+## Lab Price List
+{: .d-inline-block }
+
+Price List
+{: .label .label-default-entity }
+
+| Field | Dynamics Datatype | Description |
+|:------|:------------|:-|
+| {% include colortext.md field='ID' color='aurora-green' %} | Primary key | Medical procedure ID |
+| {% include colortext.md field='Insurance Network' color='aurora-green' %} | Option set | Aetna, Anthem, CareFirst, Cigna Health, Humana, Kaiser Permanente, UnitedHealth |
+| {% include colortext.md field='Unit Price' color='aurora-green' %} | Currency | The price per unit of Lab Product, expressed in Currency |
+| {% include colortext.md field='Lab Product ID' color='aurora-purple' %} | Lookup | Lab product this price applies to |

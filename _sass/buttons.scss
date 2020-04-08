@@ -102,7 +102,7 @@
 }
 
 .btn-primary {
-  @include btn-color($white, $btn-primary-color);
+  @include btn-color($btn-link-color, $btn-primary-color);
 }
 
 .btn-purple {

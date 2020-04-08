@@ -13,18 +13,29 @@ $body-heading-line-height: 1.15 !default !default;
 // Colors
 //
 
-$white: #fff !default;
+$white: #ECEFF4 !default;
 
-$grey-dk-000: #959396 !default;
-$grey-dk-100: #5c5962 !default;
-$grey-dk-200: #44434d !default;
-$grey-dk-250: #302d36 !default;
-$grey-dk-300: #27262b !default;
+// $grey-dk-000: #959396 !default;
+// $grey-dk-100: #5c5962 !default;
+// $grey-dk-200: #44434d !default;
+// $grey-dk-250: #302d36 !default;
+// $grey-dk-300: #27262b !default;
 
-$grey-lt-000: #f5f6fa !default;
-$grey-lt-100: #eeebee !default;
-$grey-lt-200: #ecebed !default;
-$grey-lt-300: #e6e1e8 !default;
+$grey-dk-000: #5c6880 !default;
+$grey-dk-100: #4C566A !default;
+$grey-dk-200: #434C5E !default;
+$grey-dk-250: #3B4252 !default;
+$grey-dk-300: #2E3440 !default;
+
+// $grey-lt-000: #f5f6fa !default;
+// $grey-lt-100: #eeebee !default;
+// $grey-lt-200: #ecebed !default;
+// $grey-lt-300: #e6e1e8 !default;
+
+$grey-lt-000: #ECEFF4 !default;
+$grey-lt-100: #E5E9F0 !default;
+$grey-lt-200: #E5E9F0 !default;
+$grey-lt-300: #D8DEE9 !default;
 
 $purple-000: #7253ed !default;
 $purple-100: #5e41d0 !default;
@@ -36,10 +47,23 @@ $blue-100: #2869e6 !default;
 $blue-200: #264caf !default;
 $blue-300: #183385 !default;
 
+$frost-0: #8FBCBB !default;
+$frost-1: #88C0D0 !default;
+$frost-2: #81A1C1 !default;
+$frost-3: #5E81AC !default;
+
+$btn-link-color: $grey-dk-250 !default;
+
+$aurora-red: #BF616A !default;
+$aurora-orange: #D08770 !default;
+$aurora-yellow: #EBCB8B !default;
+$aurora-green: #A3BE8C !default;
+$aurora-purple: #B48EAD !default;
+
 $green-000: #41d693 !default;
 $green-100: #11b584 !default;
 $green-200: #009c7b !default;
-$green-300: #026e57 !default;
+$green-300: #5E81AC !default;
 
 $yellow-000: #ffeb82 !default;
 $yellow-100: #fadf50 !default;
@@ -63,7 +87,7 @@ $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
 $link-color: $green-100 !default;
 $btn-primary-color: $green-200 !default;
-$base-button-color: #f7f7f7 !default;
+$base-button-color: $grey-lt-000 !default;
 
 //
 // Spacing

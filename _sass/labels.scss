@@ -11,10 +11,10 @@
   padding-left: 0.42em;
   margin-right: $sp-1;
   margin-left: $sp-1;
-  color: $white;
+  color: $btn-link-color;
   text-transform: uppercase;
   vertical-align: middle;
-  background-color: $blue-100;
+  background-color: $frost-3;
   @include fs-2;
 }
 
@@ -22,19 +22,72 @@
   cursor: default;
 }
 
+.label-default-entity {
+  background-color: $aurora-green;
+  color: $btn-link-color;
+}
+
+.label-custom-entity-patient {
+  background-color: $aurora-yellow;
+  color: $btn-link-color;
+}
+
+.label-custom-entity-healthcare {
+  background-color: $link-color;
+  color: $btn-link-color;
+}
+
+.label-custom-entity-lab {
+  background-color: $aurora-orange;
+  color: $btn-link-color;
+}
+
+.label-custom-entity-insurance {
+  background-color: $aurora-purple;
+  color: $btn-link-color;
+}
+
+.label-patient {
+  background-color: #FFFFAA;
+  color: $btn-link-color;
+}
+
+.label-healthcare {
+  background-color: #C6E2FF;
+  color: $btn-link-color;
+}
+
+.label-lab {
+  background-color: #FEB997;
+  color: $btn-link-color;
+}
+
+.label-insurance {
+  background-color: #E1AAFF;
+  color: $btn-link-color;
+}
+
 .label-green {
-  background-color: $green-200;
+  background-color: $aurora-green;
+  color: $btn-link-color;
 }
 
 .label-purple {
-  background-color: $purple-100;
+  background-color: $aurora-purple;
+  color: $btn-link-color;
 }
 
 .label-red {
-  background-color: $red-200;
+  background-color: $aurora-red;
+  color: $btn-link-color;
 }
 
 .label-yellow {
   color: $grey-dk-200;
   background-color: $yellow-200;
+}
+
+.label-orange {
+  background-color: $aurora-orange;
+  color: $btn-link-color;
 }

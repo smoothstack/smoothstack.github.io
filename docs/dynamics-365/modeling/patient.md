@@ -25,38 +25,21 @@ nav_order: 1
 
 ---
 
-## Patient
-{: .d-inline-block }
-
-Contact
-{: .label .label-green }
-
-| Field | Datatype | Description |
-|:------|:------------|:-|
-| {% include colortext.md field='ID' color='green' %} | INT (pk) | Patient ID |
-| {% include colortext.md field='First Name' color='green' %} | VARCHAR | Patient first name |
-| {% include colortext.md field='Last Name' color='green' %} | VARCHAR | Patient last name |
-| {% include colortext.md field='Gender' color='green' %} | VARCHAR | Patient gender |
-| {% include colortext.md field='Birth Date' color='green' %} | VARCHAR | Patient birth date |
-| {% include colortext.md field='Address' color='green' %} | VARCHAR | Patient address |
-| {% include colortext.md field='Email' color='green' %} | VARCHAR | Patient email address |
-| {% include colortext.md field='Insurance Plan ID' color='purple-100' %} | INT (fk) | Insurance plan foreign key |
-
----
-
 ## List of Ailments
 {: .d-inline-block }
 
 Custom
-{: .label .label-blue }
+{: .label .label-patient }
 
-| Field | Datatype | Description |
+| Field | Dynamics Datatype | Description |
 |:------|:------------|:-|
-| {% include colortext.md field='Disease Classification ID' color='purple-100' %} | INT (fk) | Disease classification foreign key |
-| {% include colortext.md field='Patient ID' color='purple-100' %} | INT (fk) | Patient foreign key |
-| {% include colortext.md field='Date of Onset' color='blue-100' %} | VARCHAR | When the disease began |
-| {% include colortext.md field='Current Medication' color='blue-100' %} | VARCHAR | Name of current medication |
-| {% include colortext.md field='Medication Dosage' color='blue-100' %} | VARCHAR | Dosage of medication |
+| {% include colortext.md field='Date of Onset' color='patient-yellow' %} | Date | When the disease began |
+| {% include colortext.md field='Current Medication' color='patient-yellow' %} | Single line of text | Name of current medication |
+| {% include colortext.md field='Medication Dosage' color='patient-yellow' %} | Whole number | Dosage of medication |
+| {% include colortext.md field='Medication Unit of Measure' color='patient-yellow' %} | Single line of text | Unit the dosage is measured in |
+| {% include colortext.md field='Medication Frequency' color='patient-yellow' %} | Single line of text | How frequently the medication is taken |
+| {% include colortext.md field='Disease Classification ID' color='aurora-purple' %} | Lookup | Disease classification foreign key |
+| {% include colortext.md field='Patient ID' color='aurora-purple' %} | Lookup | Patient foreign key |
 
 ---
 
@@ -64,12 +47,37 @@ Custom
 {: .d-inline-block }
 
 Custom
-{: .label .label-blue }
+{: .label .label-patient }
 
-| Field | Datatype | Description |
+| Field | Dynamics Datatype | Description |
 |:------|:------------|:-|
-| {% include colortext.md field='ID' color='blue-100' %} | INT (pk) | Disease Classification ID |
-| {% include colortext.md field='ICD-10 Code' color='blue-100' %} | VARCHAR | Standardized code for disease classification |
-| {% include colortext.md field='Short Name' color='blue-100' %} | VARCHAR | Short, common name for the disease |
-| {% include colortext.md field='Long Name' color='blue-100' %} | VARCHAR | Long, descriptive name for the disease |
-| {% include colortext.md field='Affected System' color='blue-100' %} | VARCHAR | Immune system, cardiovascular system, etc. |
+| {% include colortext.md field='ID' color='patient-yellow' %} | Primary key | Disease Classification ID |
+| {% include colortext.md field='ICD-10 Code' color='patient-yellow' %} | Single line of text | Standardized code for disease classification |
+| {% include colortext.md field='Short Name' color='patient-yellow' %} | Single line of text | Short, common name for the disease |
+| {% include colortext.md field='Long Name' color='patient-yellow' %} | Single line of text | Long, descriptive name for the disease |
+| {% include colortext.md field='Affected System' color='patient-yellow' %} | Option set | Immune system, cardiovascular system, etc. |
+
+---
+
+## Patient
+{: .d-inline-block }
+
+Contact
+{: .label .label-default-entity }
+
+| Field | Dynamics Datatype | Description |
+|:------|:------------|:-|
+| {% include colortext.md field='ID' color='aurora-green' %} | Primary key | Patient ID |
+| {% include colortext.md field='Contact Type' color='aurora-green' %} | Option set | Patient & optionally, insurance agent |
+| {% include colortext.md field='First Name' color='aurora-green' %} | Single line of text | Patient first name |
+| {% include colortext.md field='Last Name' color='aurora-green' %} | Single line of text | Patient last name |
+| {% include colortext.md field='Gender' color='aurora-green' %} | Option set | Patient gender |
+| {% include colortext.md field='Birth Date' color='aurora-green' %} | Date Only | Patient birth date |
+| {% include colortext.md field='Address' color='aurora-green' %} | Single line of text | Patient address |
+| {% include colortext.md field='Email' color='aurora-green' %} | Email | Patient email address |
+| {% include colortext.md field='Phone' color='aurora-green' %} | Phone | Patient phone number |
+| {% include colortext.md field='Age' color='aurora-green' %} | Calculated field (cur date - birth date) | Patient age |
+| {% include colortext.md field='Height' color='aurora-green' %} | Whole number | Patient height (cm) |
+| {% include colortext.md field='Weight' color='aurora-green' %} | Float | Patient weight (kg) |
+| {% include colortext.md field='Body Mass Index' color='aurora-green' %} | Calculated field ((weight / height^2)*10,000) | Patient BMI (unitless) |
+| {% include colortext.md field='Insurance Plan ID' color='aurora-purple' %} | Lookup | Insurance plan foreign key |

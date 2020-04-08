@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 # Fargo Medical Laboratories
-{: .no_toc }
+{: .no_toc .fs-9 }
 
 A lab business plan for the start-up company Fargo Medical Laboratories, a blood testing facility. The information provided in this case study is intended to shed light on the considerations taken when modeling a lab business. 
 {: .fs-5 .fw-300 }

@@ -15,4 +15,4 @@ Meeting rescheduled to Friday
 
 | Tasks                                       | Deadline                                                               |
 |:--------------------------------------------|:-----------------------------------------------------------------------|
-| Continue creating entities and requirements | {% include duedate.md link="#" category="04/06" label_color="green" %}  |
+| Continue creating entities and requirements | {% include duedate.md link="#" category="04/06" label_color="red" %}  |

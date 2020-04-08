@@ -6,12 +6,11 @@ nav_order: 1
 ---
 
 # Counsyl, Inc
-{: .no_toc }
+{: .no_toc .fs-9 }
 
 ---
 
-> _"The lab company enjoying solid success with its approach to contracting with health insurers is Counsyl, Inc., based in South San Francisco, California. It reports a high rate of settled claims with health insurers and an enviable collection rate from patients. It backs up these claims with impressive results from its customer satisfaction surveys."_
-{: .fw-400 .fs-5 .text-green-300 }
+| {% include colorquote.md quote='_"The lab company enjoying solid success with its approach to contracting with health insurers is Counsyl, Inc., based in South San Francisco, California. It reports a high rate of settled claims with health insurers and an enviable collection rate from patients. It backs up these claims with impressive results from its customer satisfaction surveys."_' %} |
 
 ---
 

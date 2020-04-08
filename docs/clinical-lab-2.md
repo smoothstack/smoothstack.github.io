@@ -5,12 +5,11 @@ nav_order: 3
 ---
 
 # Clinical Lab 2.0
-{: .no_toc }
+{: .no_toc .fs-9 }
 
 ---
 
-> _"Today’s clinical laboratory organization is rich in data, but this data does not improve client relationships unless integrated and presented in a way that allows laboratory staff to provide outstanding client service"_
-{: .fw-400 .fs-5 .text-green-300 }
+| {% include colorquote.md quote='_"Today’s clinical laboratory organization is rich in data, but this data does not improve client relationships unless integrated and presented in a way that allows laboratory staff to provide outstanding client service"_' %}
 
 ---
 
@@ -21,7 +20,7 @@ Due to budget cuts, clinical labs today are struggling to maintain the quality o
 
 ---
 
-> Lab services make up only 2% of US healthcare spending, yet inform nearly 70% of patient management decisions
+| {% include colorquote.md quote='_Lab services make up only 2% of US healthcare spending, yet inform nearly 70% of patient management decisions_' %}
 {: .fw-400 .fs-5 .text-green-300 }
 
 ---

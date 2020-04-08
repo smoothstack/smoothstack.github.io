@@ -1,0 +1,1 @@
+{{ include.quote }}{: .fw-400 .fs-5 .text-aurora-yellow .label-nolink }
