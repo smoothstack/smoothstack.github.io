@@ -37,7 +37,7 @@ Custom
 | {% include colortext.md field='Policy Number' color='insurance-purple' %} | Single line of text | Patient's insurance policy number |
 | {% include colortext.md field='Group Number' color='insurance-purple' %} | Single line of text | Patient's insurance group number |
 | {% include colortext.md field='Plan Type' color='insurance-purple' %} | Option set | PPO, HMO, POS |
-| {% include colortext.md field='Deductable' color='insurance-purple' %} | Currency | Insurance plan deductible, expressed in Currency |
+| {% include colortext.md field='Deductible' color='insurance-purple' %} | Currency | Insurance plan deductible, expressed in Currency |
 | {% include colortext.md field='Insurance Company ID' color='aurora-orange' %} | Lookup | Insurance company foreign key |
 
 ---
