@@ -55,7 +55,6 @@ Assigned
 |:-|:-|
 | Finalize fields for Patient and Insurance Plan entities | {% include duedate.md link="#" category="04/07" label_color="red" %} |
 
-
 ### Tuesday
 {: .mt-7 }
 
@@ -65,3 +64,12 @@ Assigned
 |:-|:-|
 | Create forms for Patient and Insurance Plan entities | {% include duedate.md link="#" category="04/08" label_color="blue" %} |
 | Continue developing user stories on trello board | {% include duedate.md link="#" category="TBD" label_color="green" %} |
+
+### Wednesday
+{: .mt-7 }
+
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week5/wednesday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
+
+| Tasks                               | Deadline                                                               |
+|:------------------------------------|:-----------------------------------------------------------------------|
+| TBD     | {% include duedate.md link="#" category="TBD" label_color="green" %} |
