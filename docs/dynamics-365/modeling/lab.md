@@ -92,7 +92,7 @@ Product Catalog
 |:------|:------------|:-|
 | {% include colortext.md field='ID' color='aurora-green' %} | Primary key | Medical procedure ID |
 | {% include colortext.md field='Name' color='aurora-green' %} | Single line of text | Descriptive name of the medical procedure |
-| {% include colortext.md field='Product Type' color='aurora-green' %} | Option set | Standard Medical Procedure, Derived Product |
+| {% include colortext.md field='Product Type' color='lab-orange' %} | Option set | Standard Medical Procedure, Derived Product |
 | {% include colortext.md field='CPT Code' color='lab-orange' %} | Single line of text | Standardized code for billing a medical procedure |
 
 ---
