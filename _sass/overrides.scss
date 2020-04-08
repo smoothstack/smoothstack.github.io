@@ -27,3 +27,28 @@ a.custom_link_color_2 {
 a.custom_link_color_3 {
   color: $grey-lt-000;
 }
+
+.label-not-really {
+  display: inline-block;
+  padding-top: 0.16em;
+  padding-bottom: 0.16em;
+  margin-right: $sp-1;
+  font-weight: 400;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.label-not-really-title {
+  display: inline-block;
+  padding-top: 0.16em;
+  padding-bottom: 0.12em;
+  margin-right: $sp-1;
+  vertical-align: middle;
+}
+
+.custom-dot {
+  position: absolute;
+  margin-left: -1.4em;
+  color: #88C0D0;
+  content: "•";
+}

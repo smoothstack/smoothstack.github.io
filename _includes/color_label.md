@@ -1,0 +1,1 @@
+{{ include.entity_type }}{: .label target="_blank" .label-{{ include.label_color }} .fw-400 }
