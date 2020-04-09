@@ -13,4 +13,5 @@ nav_order: 3
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| TBD     | {% include duedate.md link="#" category="TBD" label_color="green" %} |
+| Create a Patient entity in Dynamics by reusing the OOTB Contact entity | {% include duedate.md link="#" category="04/09" label_color="blue" %} |
+| Create Insurance Plan entity | {% include duedate.md link="#" category="04/09" label_color="blue" %} |
