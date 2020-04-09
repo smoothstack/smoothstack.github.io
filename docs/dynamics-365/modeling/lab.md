@@ -56,8 +56,8 @@ Custom
 |:------|:------------|:-|
 | {% include colortext.md field='ID' color='lab-orange' %} | Primary key | Lab order ID |
 | {% include colortext.md field='Order Date' color='lab-orange' %} | Date | Date test was ordered |
-| {% include colortext.md field='Status' color='lab-orange' %} | Status | Active or Inactive |
 | {% include colortext.md field='Status Reason' color='lab-orange' %} | Status Reason | _(Active)_ Preparation, In-Progress;      _(Inactive)_ Completed, Canceled |
+| {% include colortext.md field='Status' color='aurora-green' %} | Status | Active or Inactive |
 | {% include colortext.md field='Service Event ID' color='aurora-purple' %} | Lookup | Service event that produced this order |
 | {% include colortext.md field='Lab Product ID' color='aurora-purple' %} | Lookup | Medical procedure being ordered |
 

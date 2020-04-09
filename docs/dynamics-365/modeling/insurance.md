@@ -73,9 +73,9 @@ Invoices
 |:------|:------------|:-|
 | {% include colortext.md field='ID' color='aurora-green' %} | Primary key | Lab invoice ID |
 | {% include colortext.md field='Customer' color='aurora-green' %} | Customer | Account, Contact |
-| {% include colortext.md field='Total Price' color='aurora-yellow' %} | Currency | Total invoice price, including all itemized Lab Products, expressed in Currency |
-| {% include colortext.md field='Invoice Date' color='aurora-yellow' %} | Date | Date invoice produced |
-| {% include colortext.md field='Status' color='aurora-yellow' %} | Status | Active or Inactive |
+| {% include colortext.md field='Total Price' color='aurora-green' %} | Currency | Total invoice price, including all itemized Lab Products, expressed in Currency |
+| {% include colortext.md field='Invoice Date (Created on)' color='aurora-green' %} | Date | Date invoice produced |
+| {% include colortext.md field='Status' color='aurora-green' %} | Status | Active or Inactive |
 | {% include colortext.md field='Status Reason' color='aurora-yellow' %} | Status Reason | _(Active)_ Unpaid, Partially paid;      _(Inactive)_ Paid in full, Waived |
 
 ---
