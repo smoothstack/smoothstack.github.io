@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Wednesday
+title: Thursday
 parent: Week 5
 grand_parent: Notes
-nav_order: 3
+nav_order: 4
 ---
 
-# Wednesday
+# Thursday
 {: .no_toc }
 
 ---
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create a Patient entity in Dynamics by reusing the OOTB Contact entity | {% include duedate.md link="#" category="04/09" label_color="red" %} |
-| Create Insurance Plan entity | {% include duedate.md link="#" category="04/09" label_color="red" %} |
+| Create form for Insurance Plan | {% include duedate.md link="#" category="04/10" label_color="green" %} |
+| Create form for Patient | {% include duedate.md link="#" category="04/10" label_color="green" %} |
