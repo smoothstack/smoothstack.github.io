@@ -9,7 +9,7 @@ nav_order: 3
 # Diagnostic Service Performed
 {: .no_toc }
 
-See [Product Catalog]({{ site.baseurl }}{% link docs/dynamics-365/product-catalog.md %}/#external-references) to see the list of products.
+See [Product Catalog]({{ site.baseurl }}{% link docs/dynamics-365/product-catalog.md %}) to see the list of products.
 {: .fs-3 .mb-6 }
 
 <div class="code-example" markdown="1">
