@@ -13,5 +13,5 @@ nav_order: 4
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create form for Insurance Plan | {% include duedate.md link="#" category="04/10" label_color="green" %} |
-| Create form for Patient | {% include duedate.md link="#" category="04/10" label_color="green" %} |
+| Create form for Insurance Plan | {% include duedate.md link="#" category="04/10" label_color="red" %} |
+| Create form for Patient | {% include duedate.md link="#" category="04/10" label_color="red" %} |

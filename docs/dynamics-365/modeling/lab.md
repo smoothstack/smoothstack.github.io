@@ -9,6 +9,9 @@ nav_order: 3
 # Diagnostic Service Performed
 {: .no_toc }
 
+See [Product Catalog]({{ site.baseurl }}{% link docs/dynamics-365/product-catalog.md %}/#external-references) to see the list of products.
+{: .fs-3 .mb-6 }
+
 <div class="code-example" markdown="1">
 
 #### Table of Contents
@@ -78,7 +81,6 @@ Custom
 | {% include colortext.md field='Remarks' color='lab-orange' %} | Multiple lines of text | Notable comments regarding the test results |
 | {% include colortext.md field='Lab Cost' color='lab-orange' %} | Currency | The price charged by the lab company for the lab test, expressed in Currency |
 | {% include colortext.md field='Lab Order ID' color='aurora-purple' %} | Lookup | Which lab order these results correspond to |
-| {% include colortext.md field='Lab Invoice ID' color='aurora-purple' %} | Lookup | Foreign key to lab invoice |
 
 ---
 

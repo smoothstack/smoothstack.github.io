@@ -25,14 +25,15 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 
 ---
 
-# Week 5
+# Week 6
 
 <div class="code-example mb-7" markdown="1">
 
 #### Notes & Assignments
 
 - [Week 4]({{ site.baseurl }}{% link docs/notes/week4/week4.md %})
-- [Week 5 _(see below)_]({{ site.baseurl }}{% link docs/notes/week5/week5.md %}){: .custom_link_color_3 .custom_link }
+- [Week 5]({{ site.baseurl }}{% link docs/notes/week5/week5.md %})
+- [Week 6 _(see below)_]({{ site.baseurl }}{% link docs/notes/week6/week6.md %}){: .custom_link_color_3 .custom_link }
 
 </div>
 
@@ -47,40 +48,11 @@ Due Today
 Assigned
 {: .label .label-green }
 
-### Monday
-
-[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week5/monday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
-
-| Tasks | Deadline |
-|:-|:-|
-| Finalize fields for Patient and Insurance Plan entities | {% include duedate.md link="#" category="04/07" label_color="red" %} |
-
-### Tuesday
-{: .mt-7 }
-
-[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week5/tuesday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
-
-| Tasks | Deadline |
-|:-|:-|
-| Create forms for Patient and Insurance Plan entities | {% include duedate.md link="#" category="04/10" label_color="green" %} |
-| Continue developing user stories on trello board | {% include duedate.md link="#" category="TBD" label_color="green" %} |
-
-### Wednesday
-{: .mt-7 }
-
-[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week5/wednesday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
-
-| Tasks                               | Deadline                                                               |
-|:------------------------------------|:-----------------------------------------------------------------------|
-| Create a Patient entity in Dynamics by reusing the OOTB Contact entity | {% include duedate.md link="#" category="04/09" label_color="red" %} |
-| Create Insurance Plan entity | {% include duedate.md link="#" category="04/09" label_color="red" %} |
-
 ### Thursday
-{: .mt-7 }
 
-[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week5/thursday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week6/thursday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create form for Insurance Plan | {% include duedate.md link="#" category="04/10" label_color="green" %} |
-| Create form for Patient | {% include duedate.md link="#" category="04/10" label_color="green" %} |
+| Create Business Rules for Patient fields | {% include duedate.md link="#" category="04/20" label_color="green" %} |
+| Demo on Cascading Rules between any Parent-Child entities | {% include duedate.md link="#" category="04/20" label_color="green" %} |

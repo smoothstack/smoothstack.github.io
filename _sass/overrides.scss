@@ -52,3 +52,66 @@ a.custom_link_color_3 {
   color: #88C0D0;
   content: "•";
 }
+
+.customlistitem {
+  position: relative;
+  margin-bottom: -1rem;
+  &::before {
+    position: absolute;
+    margin-top: 0.3em;
+    margin-left: -2em !important;
+    margin-right: 3em;
+    color: rgba($body-text-color, 0.3);
+    content: var(--content) !important;
+  }
+}
+
+.product-customlistitem {
+  position: relative;
+  margin-bottom: -1.5rem;
+  &::before {
+    position: absolute;
+    margin-top: 0.3em;
+    margin-left: -2em !important;
+    margin-right: 3em;
+    color: rgba($body-text-color, 0.3);
+    content: var(--content) !important;
+  }
+}
+
+.custom-tr-dot {
+  padding-left: 2em;
+}
+.custom-td-dot {
+  position: relative;
+  padding-left: 2em;
+
+  &::before {
+    position: absolute;
+    margin-left: -1em !important;
+    padding-right: 3em;
+    color: #88C0D0;
+    content: '•' !important;
+  }
+}
+
+.field1-width {
+  width: 19em;
+}
+.field1-width-head {
+  width: 14.8em;
+  font-weight: 500 !important;
+}
+.product-field1-width {
+  width: 19em;
+  border-top: 1px solid rgba(67, 76, 94, 0.5) !important;
+}
+
+.product-field2-width {
+  border-top: 1px solid rgba(67, 76, 94, 0.5) !important;
+  border-bottom: 1px solid rgba(67, 76, 94, 0.5) !important;
+}
+
+// .td-custom-width {
+//   display: table-row;
+// }
