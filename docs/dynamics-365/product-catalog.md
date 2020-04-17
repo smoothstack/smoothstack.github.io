@@ -66,17 +66,19 @@ nav_order: 1
 {% include product.md field='Urinalysis' number='11' price='$45' color='aurora-green' unit='Test' %}
 </ul>
 
-<br/>
+{% include hidetext.md field='.' %}
+
+---
 
 {% include bundle.md field='Bundle' color='aurora-purple' %}
-<ul id='bundles'>
+<ul id='bundles' class="bundles">
 {% include bundle-head.md field='Comprehensive Diabetes Monitoring' number='12' price='$75' color='aurora-purple' unit='Bundle' %}
 {% include bundle-child.md field='Hemoglobin A1C' %}
 {% include bundle-child.md field='Urinalysis' %}
 </tbody></table></li>
 </ul>
 
-<ul>
+<ul class="bundles">
 {% include bundle-head.md field='Comprehensive Metabolic Panel' number='13' price='$105' color='aurora-purple' unit='Bundle' %}
 {% include bundle-child.md field='Basic Metabolic Panel' %}
 {% include bundle-child.md field='Liver Panel' %}
@@ -84,14 +86,16 @@ nav_order: 1
 </tbody></table></li>
 </ul>
 
-<ul>
+<ul class="bundles">
 {% include bundle-head.md field='Comprehensive COVID-19 Assesment' number='14' price='$75' color='aurora-purple' unit='Bundle' %}
 {% include bundle-child.md field='Nasal Mucosal Assay' %}
 {% include bundle-child.md field='Coronavirus Antibody Test' %}
 </tbody></table></li>
 </ul>
 
-<br/>
+{% include hidetext.md field='.' %}
+
+---
 
 {% include bundle.md field='Event' color='aurora-yellow' %}
 
@@ -107,4 +111,4 @@ nav_order: 1
 {% include product.md field='Mobile Collection Event' number='17' price='$500' color='aurora-yellow' unit='Event' %}
 </ul>
 
-<br/>
+{% include hidetext.md field='.' %}

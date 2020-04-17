@@ -55,7 +55,7 @@ a.custom_link_color_3 {
 
 .customlistitem {
   position: relative;
-  margin-bottom: -1rem;
+  margin-bottom: -1.5rem;
   &::before {
     position: absolute;
     margin-top: 0.3em;
@@ -82,6 +82,20 @@ a.custom_link_color_3 {
 .custom-tr-dot {
   padding-left: 2em;
 }
+
+#bundles {
+  margin-top: 1.7em;
+}
+#events {
+  margin-top: 1.7em;
+}
+#products {
+  margin-top: 1.7em;
+}
+.bundles {
+  margin-bottom: 1.7em;
+}
+
 .custom-td-dot {
   position: relative;
   padding-left: 2em;
@@ -110,6 +124,12 @@ a.custom_link_color_3 {
 .product-field2-width {
   border-top: 1px solid rgba(67, 76, 94, 0.5) !important;
   border-bottom: 1px solid rgba(67, 76, 94, 0.5) !important;
+}
+
+.hidetext {
+  margin-bottom: 0 !important;
+  color: transparent !important;
+
 }
 
 // .td-custom-width {
