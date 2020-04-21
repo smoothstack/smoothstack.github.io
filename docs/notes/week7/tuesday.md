@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Monday
+title: Tuesday
 parent: Week 7
 grand_parent: Notes
-nav_order: 1
+nav_order: 2
 ---
 
-# Monday
+# Tuesday
 {: .no_toc }
 
 Refer to the [Trello Board](https://trello.com/dynamicsmarch){: .custom_link_color .custom_link target="_blank" }
@@ -16,5 +16,4 @@ Refer to the [Trello Board](https://trello.com/dynamicsmarch){: .custom_link_col
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create Business Rules for Patient fields | {% include duedate.md link="#" category="04/21" label_color="red" %} |
-| Demo on Cascading Rules between any Parent-Child entities | {% include duedate.md link="#" category="04/21" label_color="red" %} |
+| TBD | {% include duedate.md link="#" category="04/22" label_color="green" %} |

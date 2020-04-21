@@ -55,5 +55,13 @@ Assigned
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create Business Rules for Patient fields | {% include duedate.md link="#" category="04/21" label_color="blue" %} |
-| Demo on Cascading Rules between any Parent-Child entities | {% include duedate.md link="#" category="04/21" label_color="blue" %} |
+| Create Business Rules for Patient fields | {% include duedate.md link="#" category="04/21" label_color="red" %} |
+| Demo on Cascading Rules between any Parent-Child entities | {% include duedate.md link="#" category="04/21" label_color="red" %} |
+
+### Tuesday
+
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week7/tuesday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
+
+| Tasks                               | Deadline                                                               |
+|:------------------------------------|:-----------------------------------------------------------------------|
+| TBD | {% include duedate.md link="#" category="04/22" label_color="green" %} |
