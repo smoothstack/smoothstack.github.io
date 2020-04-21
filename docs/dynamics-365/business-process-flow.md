@@ -43,6 +43,7 @@ nav_order: 1
 </div>
 
 #### Components
+{: .no_toc }
 
 - Capture patient info
 - Capture healthcare professional info
@@ -60,6 +61,7 @@ nav_order: 1
 </div>
 
 #### Components
+{: .no_toc }
 
 - Preparing a lab order
 - Finalizing a lab order
@@ -76,6 +78,7 @@ nav_order: 1
 </div>
 
 #### Components
+{: .no_toc }
 
 - Process the lab order
 - Convey results to physician
@@ -92,5 +95,6 @@ nav_order: 1
 </div>
 
 #### Components
+{: .no_toc }
 
 - Close an invoice
