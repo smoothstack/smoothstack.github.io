@@ -112,6 +112,12 @@ a.custom_link_color_3 {
 .field1-width {
   width: 19em;
 }
+.field1-width-bundle-head {
+  width: 15.6em;
+}
+.field1-width-bundle {
+  width: 20em;
+}
 .field1-width-head {
   width: 14.8em;
   font-weight: 500 !important;
@@ -124,6 +130,14 @@ a.custom_link_color_3 {
 .product-field2-width {
   border-top: 1px solid rgba(67, 76, 94, 0.5) !important;
   border-bottom: 1px solid rgba(67, 76, 94, 0.5) !important;
+}
+.product-field3-width {
+  width: 10em;
+  border-top: 1px solid rgba(67, 76, 94, 0.5) !important;
+  border-bottom: 1px solid rgba(67, 76, 94, 0.5) !important;
+}
+.color-product-cpt {
+  color: $frost-1;
 }
 
 .hidetext {

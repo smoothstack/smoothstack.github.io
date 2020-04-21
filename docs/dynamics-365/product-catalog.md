@@ -20,50 +20,50 @@ nav_order: 3
 
 ---
 
-{% include bundle.md field='Product' color='aurora-green' %}
+{% include product-header.md field='Product' color='aurora-green' %}
 
 <ul id='products'>
-{% include product.md field='Complete Genome Sequence' number='1' price='$2,000' color='aurora-green' unit='Test' %}
+{% include product.md field='Complete Genome Sequence' cpt_code='81425-81427' number='1' price='$2,000' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Nasal Mucosal Assay' number='2' price='$10' color='aurora-green' unit='Test' %}
+{% include product.md field='Nasal Mucosal Assay' cpt_code='81425-86328' number='2' price='$10' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Coronavirus Antibody Test' number='3' price='$15' color='aurora-green' unit='Test' %}
+{% include product.md field='Coronavirus Antibody Test' cpt_code='81425-86769' number='3' price='$15' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Complete Blood Count' number='4' price='$30' color='aurora-green' unit='Test' %}
+{% include product.md field='Complete Blood Count' cpt_code='85025-005009' number='4' price='$30' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Prothrombin Time' number='5' price='$55' color='aurora-green' unit='Test' %}
+{% include product.md field='Prothrombin Time' cpt_code='85610-005199' number='5' price='$55' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Basic Metabolic Panel' number='6' price='$65' color='aurora-green' unit='Test' %}
+{% include product.md field='Basic Metabolic Panel' cpt_code='80048-322758' number='6' price='$65' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Lipid Panel' number='7' price='$30' color='aurora-green' unit='Test' %}
+{% include product.md field='Lipid Panel' cpt_code='80061-303756' number='7' price='$30' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Liver Panel' number='8' price='$35' color='aurora-green' unit='Test' %}
+{% include product.md field='Liver Panel' cpt_code='80076-2120358' number='8' price='$35' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Thyroid Stimulating Hormone' number='9' price='$15' color='aurora-green' unit='Test' %}
+{% include product.md field='Thyroid Stimulating Hormone' cpt_code='84443-224576' number='9' price='$15' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Hemoglobin A1C' number='10' price='$35' color='aurora-green' unit='Test' %}
+{% include product.md field='Hemoglobin A1C' cpt_code='83036-001453' number='10' price='$35' color='aurora-green' unit='Test' %}
 </ul>
 
 <ul>
-{% include product.md field='Urinalysis' number='11' price='$45' color='aurora-green' unit='Test' %}
+{% include product.md field='Urinalysis' cpt_code='81001-003772' number='11' price='$45' color='aurora-green' unit='Test' %}
 </ul>
 
 {% include hidetext.md field='.' %}
@@ -97,18 +97,18 @@ nav_order: 3
 
 ---
 
-{% include bundle.md field='Event' color='aurora-yellow' %}
+{% include bundle-event.md field='Event' color='aurora-yellow' %}
 
 <ul id='events'>
-{% include product.md field='Specimen Pickup Service' number='15' price='50' color='aurora-yellow' unit='Event' %}
+{% include product-event.md field='Specimen Pickup Service' number='15' price='50' color='aurora-yellow' unit='Event' %}
 </ul>
 
 <ul>
-{% include product.md field='On-Site Specimen Collection' number='16' price='$350' color='aurora-yellow' unit='Event' %}
+{% include product-event.md field='On-Site Specimen Collection' number='16' price='$350' color='aurora-yellow' unit='Event' %}
 </ul>
 
 <ul>
-{% include product.md field='Mobile Collection Event' number='17' price='$500' color='aurora-yellow' unit='Event' %}
+{% include product-event.md field='Mobile Collection Event' number='17' price='$500' color='aurora-yellow' unit='Event' %}
 </ul>
 
 {% include hidetext.md field='.' %}
