@@ -35,6 +35,33 @@
   }
 }
 
+.navigation-list-child-list-2 {
+  padding-left: $sp-5;
+  list-style: none;
+
+  .navigation-list-link {
+    color: $nav-child-link-color;
+  }
+
+  .navigation-list-item {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      margin-top: 0.3em;
+      margin-left: -0.8em;
+      color: rgba($body-text-color, 0.3);
+      content: "• ";
+    }
+
+    &.active {
+      &::before {
+        color: $body-text-color;
+      }
+    }
+  }
+}
+
 .navigation-list-item {
   @include fs-4;
   margin: 0;

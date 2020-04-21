@@ -3,7 +3,7 @@ layout: default
 title: Modeling the Entities
 parent: Dynamics 365
 has_children: true
-nav_order: 1
+nav_order: 2
 permalink: /docs/dynamics-365/modeling
 ---
 

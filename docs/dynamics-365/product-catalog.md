@@ -3,7 +3,7 @@ layout: default
 title: Product Catalog
 parent: Dynamics 365
 description: "Knowledge Base for the Clinical Lab CRM Project"
-nav_order: 1
+nav_order: 3
 ---
 
 # Product Catalog

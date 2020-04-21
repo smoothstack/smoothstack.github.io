@@ -25,7 +25,7 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 
 ---
 
-# Week 6
+# Week 7
 
 <div class="code-example mb-7" markdown="1">
 
@@ -33,7 +33,8 @@ Dynamics March 2020's knowledge base for all things related to the Clinical Lab 
 
 - [Week 4]({{ site.baseurl }}{% link docs/notes/week4/week4.md %})
 - [Week 5]({{ site.baseurl }}{% link docs/notes/week5/week5.md %})
-- [Week 6 _(see below)_]({{ site.baseurl }}{% link docs/notes/week6/week6.md %}){: .custom_link_color_3 .custom_link }
+- [Week 6]({{ site.baseurl }}{% link docs/notes/week6/week6.md %})
+- [Week 7 _(see below)_]({{ site.baseurl }}{% link docs/notes/week7/week7.md %}){: .custom_link_color_3 .custom_link }
 
 </div>
 
@@ -48,11 +49,11 @@ Due Today
 Assigned
 {: .label .label-green }
 
-### Thursday
+### Monday
 
-[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week6/thursday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
+[Meeting Notes]({{ site.baseurl }}{% link docs/notes/week7/monday.md %}){: .fs-2 .custom_link_color_2 .custom_link }
 
 | Tasks                               | Deadline                                                               |
 |:------------------------------------|:-----------------------------------------------------------------------|
-| Create Business Rules for Patient fields | {% include duedate.md link="#" category="04/20" label_color="green" %} |
-| Demo on Cascading Rules between any Parent-Child entities | {% include duedate.md link="#" category="04/20" label_color="green" %} |
+| Create Business Rules for Patient fields | {% include duedate.md link="#" category="04/21" label_color="blue" %} |
+| Demo on Cascading Rules between any Parent-Child entities | {% include duedate.md link="#" category="04/21" label_color="blue" %} |

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Thursday
-parent: Week 6
+title: Monday
+parent: Week 7
 grand_parent: Notes
 nav_order: 1
 ---
 
-# Thursday
+# Monday
 {: .no_toc }
 
 Refer to the [Trello Board](https://trello.com/dynamicsmarch){: .custom_link_color .custom_link target="_blank" }

@@ -132,6 +132,32 @@ a.custom_link_color_3 {
 
 }
 
-// .td-custom-width {
-//   display: table-row;
-// }
+.img-overlay-container {
+  position: relative;
+}
+
+.sub-img-overlay-container {
+  position: relative;
+  width: 50%;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255, 0);
+  text-align: center;
+  &:hover {
+    color: $grey-lt-000 !important;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+}
